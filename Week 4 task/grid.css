@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas: 
+      'a a a b b'
+      'a a a b b'
+      'c c d d d'
+      'c c e e e'
+    ;
+    gap: 7px;
+    height: 50vh;
+    width: 50%;
+    align-content: stretch;
+  }
+  
+  .item-a {
+    background-color: #ff3300;
+    grid-area: a;
+  }
+  .item-b {
+    background-color: #ffbb00;
+    grid-area: b;
+  }
+  .item-c {
+    background-color: #00db00;
+    grid-area: c;
+  }
+  .item-d {
+    background-color: #059fff;
+    grid-area: d;
+  }
+  .item-e {
+    background-color: #059fff;
+    grid-area: e;
+  }
