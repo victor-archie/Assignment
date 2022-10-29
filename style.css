@@ -1,0 +1,142 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 239, 230, 0.5);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(98, 142, 144);
+
+}
+
+.nav {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    float: right;
+}
+
+.nav:hover {
+    background-color: rgb(98, 142, 1);
+}
+
+h1,
+h2 {
+    color: rgb(60, 35, 23);
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+hr {
+    border: dotted #66BFBF 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p {
+    list-style: 2;
+}
+
+.archie {
+    margin-right: 30px;
+    float: left;
+}
+
+.welcome {
+    margin: 100px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    display: inline-block;
+    width: 50%;
+}
+
+.profile {
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.project-list {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.p-lists {
+    list-style-type: number;
+    display: block;
+}
+
+li {
+    padding: 10px;
+    text-align: left;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(180, 205, 230);
+    border: 1px;
+    padding: 20px;
+    color: rgb(60, 35, 23);
+    margin: 50px auto 50px auto;
+}
+
+.btn:hover {
+    background-color: rgb(71, 181, 255);
+    color: white;
+}
+
+.here {
+    text-decoration: none;
+    color: rgb(71, 181, 255);
+}
+
+.here:hover {
+    color: rgb(180, 205, 230);
+}
+
+.copyright {
+    background-color: rgb(98, 142, 144);
+    margin-top: 100px;
+    padding: 50px;
+    color: white;
+}
+
+/*Contact me style*/
+input[type=text],
+{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
